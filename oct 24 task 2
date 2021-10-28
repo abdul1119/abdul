@@ -1,0 +1,23 @@
+task 1 - interpreter translates one statement from the program one at a time whereas a compiler translates the entire program at once
+
+task 2 - the rules for creating variables are - a variable canonot start with special charecters like comma, underscore, semicolon etc
+  - there should not be spaces in the variables
+  -you cannot start the variable with a number
+  -variables are case sensitive (Python and python are different)
+
+task 3 - in python 2 "print" is treated as a statement rather than a function
+  -when you divide in python 2 the answer you get is always a whole number which could lead to problems (ex:3/2=1)
+
+task 4 - Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part
+
+task 5 - prime number - prime numbers are numbers which cannot be divided by any number other than 1 annd the number itself
+       - factorial - The factorial is found for a number by multiplying all the integers starting from 1 till the given number
+       - fibonacci series - the fibonacci series is a sequence of numbers starting from 0 which are the sumof the previous 2 numbers
+       -armstrong number -  armstrong number is the sum of the cubes of its digits
+       -odd numbers - odd numbers are numbers which cannot be devided by 2
+       -even numbers - even numbers are numbers which can be divided by 2
+       -positive numbers - positive numbers are numbers which come after 0
+       -negative numbers  negative numbers are numbers which come before 0
+       -complex numbers - Complex numbers are numbers that consist of two parts — a real number and an imaginary number
+       -palindrome - A word, number, phrase or a set of characters which are the same when read from forwards or backwords
+       -anagram - an anagram is a string similiar to another string except the charecters are in a different order
