@@ -1,0 +1,20 @@
+task 1 - radius=int(input("enter the radius:"))
+         height=float(input("enter the height:"))
+         pi=3.14
+         area =int(pi*radius*radius*height)
+         print("area of the cylinder with radius {} and height {} is area {}")
+         
+         enter the radius: 20
+         enter the height: 40.50
+         area of the cylinder with radius 20 and height 40.5 is area 50868
+         
+task 2 -  pi=3.14
+          radius=int(input("enter the radius:"))
+          area=int(pi*radius*radius)
+          circumference=2*pi*radius
+          print("area of the circle with radius {} is area {}")
+          print("circumference of the circle with radius {} is circumference {}")
+          
+          enter the radius:3
+          area of the circle with radius 3 is area 28
+          circumference of the circle with radius 3 is circumference 18.84         
