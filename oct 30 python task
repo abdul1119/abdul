@@ -1,0 +1,35 @@
+task 1 - string is called a global data ype because it can hold integer, float and boolean values wheareas the other tata types are in capable of doing so
+
+task 2 - 
+  float - a=34.65
+          print(int(a))
+          print(str(a))
+          print(bool(a))
+          34
+          34.65
+          True
+
+  integer - a=34
+            print(float(a))
+            print(str(a))
+            print(bool(a))
+            34.0
+            34
+            True
+
+  boolean - a=True
+            print(float(a))
+            print(int(a))
+            print(str(a))
+            1.0
+            1
+            True
+             
+  string -  a="34"
+            print(float(a))
+            print(int(a))
+            print(bool(a))
+            34.0
+            34
+            True
+         
