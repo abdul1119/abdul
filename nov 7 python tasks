@@ -30,24 +30,26 @@ taks 2 -  uorg_nohtyp_sdnim_evitavonn
           p_ynvo
 
 strings programming -
-task 1 - CODE
+task 1 - 
+CODE - 
          string = input("enter your string:")
          length = len(string)
          middle_no = round(length//2)
          middle_letter = string[middle_no]
          print(middle_letter)
 
-OUTPUT 
+OUTPUT  -
          enter your string: python
          h
          
-task 2 - CODE
+task 2 - 
+CODE -
          string1 = input("enter first string:")
          string2 = input("enter second string:")
          len1 = str(len(string1))
          len2 = str(len(string2))
          print(string1 + len2 + string2 + len1)
-OUTPUT
+OUTPUT -
          enter first string: python
          enter second string: world
          python5world6
