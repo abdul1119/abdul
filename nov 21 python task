@@ -1,0 +1,13 @@
+task 1-
+CODE-
+    number = int(input("enter a number"))
+    if number >= 0:
+    print ("this is a positive number")
+    else:
+    print("this is a negative number")
+   OUTPUT-
+    enter a number:-9
+    this is a negative number
+    
+    enter a number:9
+    this is a positive number
