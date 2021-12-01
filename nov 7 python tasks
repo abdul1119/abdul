@@ -54,8 +54,13 @@ OUTPUT -
          enter second string: world
          python5world6
 
-middle_no = input("enter a string:")
-lens = (len(string)/2)
-b=round(lens)
-middle_no = middle_no[0:b-1]+ middle_no[b-1::100].upper()+ middle_no[b:100]
-print(middle_no)
+task = 3 -
+CODE -
+         a = input("enter string:")
+         lens = len(a)%2 
+         middleletter = a[lens]
+         convertingmiddleletter = middleletter.upper()
+         print(a.replace(middleletter,convertingmiddleletter))
+OUTPUT -
+         enter string:hello
+         hEllo
