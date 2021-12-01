@@ -54,7 +54,7 @@ OUTPUT -
          enter second string: world
          python5world6
 
-task = 3 -
+task 3 -
 CODE -
          a = input("enter string:")
          lens = len(a)%2 
@@ -64,3 +64,13 @@ CODE -
 OUTPUT -
          enter string:hello
          hEllo
+
+task 4 -
+CODE -
+         name1 = str(input("enter first name:"))
+         name2 = str(input("enter second name:"))
+         print('Hello',name1,name2 + '!' + 'You just delved into python')
+OUTPUT -
+         enter first name:bob
+         enter second name:ross
+         Hello bob ross!You just delved into python
