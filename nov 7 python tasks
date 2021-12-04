@@ -74,3 +74,15 @@ OUTPUT -
          enter first name:bob
          enter second name:ross
          Hello bob ross!You just delved into python
+
+task 5 - 
+CODE - 
+         a = input("enter one string:")
+         b = a.swapcase()
+         `print(b)
+         
+OUTPUT -          
+         enter one string:PYThon
+         pytHON
+         
+         
