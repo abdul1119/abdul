@@ -31,12 +31,8 @@ taks 2 -  uorg_nohtyp_sdnim_evitavonn
 
 strings programming -
 task 1 - 
-CODE - 
-         string = input("enter your string:")
-         length = len(string)
-         middle_no = round(length//2)
-         middle_letter = string[middle_no]
-         print(middle_letter)
+CODE -   
+
 
 OUTPUT  -
          enter your string: python
