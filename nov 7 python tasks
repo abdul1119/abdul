@@ -85,4 +85,15 @@ OUTPUT -
          enter one string:PYThon
          pytHON
          
-         
+task 6 -
+CODE - 
+         return string[:position]+character+string[position+1:]
+         string = input("enter a string:")
+         index, charecter = input("enter an index and charecter:").split()
+         string2 = mutate_string(string, int(index), charecter)
+         print(string2)
+
+OUTPUT - 
+         enter a string:hello
+         enter an index and charecter:2 k
+         heklo
