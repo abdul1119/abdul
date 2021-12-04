@@ -32,8 +32,11 @@ taks 2 -  uorg_nohtyp_sdnim_evitavonn
 strings programming -
 task 1 - 
 CODE -   
-
-
+         string=input("enter the string:")
+         a=len(string)/2 +0.5
+         b=(round(a))
+         string =string[b-1::100]
+         print(string)
 OUTPUT  -
          enter your string: python
          h
@@ -52,15 +55,13 @@ OUTPUT -
 
 task 3 -
 CODE -
-         a = input("enter string:")
-         lens = len(a)%2 
-         middleletter = a[lens]
-         convertingmiddleletter = middleletter.upper()
-         print(a.replace(middleletter,convertingmiddleletter))
+         string = input("enter the string:")
+         lens = len(string)/2 +0.5
+         string = string[0:lens-1]+ string[lens-1::100].upper()+ string[lens:100]
+         print(string)
 OUTPUT -
-         enter string:hello
-         hEllo
-
+         enter the string:python
+         pyThon
 task 4 -
 CODE -
          name1 = str(input("enter first name:"))
