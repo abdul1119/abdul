@@ -1,0 +1,68 @@
+Task 1 - 
+CODE - 
+list1 = [2,3,4,6,7,8,9,10,11]
+even=[]
+odd=[]
+for i in list1:
+  if int(i % 2)==0:
+      even.append(i)
+      print(len(even))
+      print(even)
+  else:
+      odd.append(i)
+      print(len(odd))
+      print(odd)
+OUTPUT -
+5
+[2, 4, 6, 8, 10]
+4
+[3, 7, 9, 11]
+
+Task 2 -
+CODE - 
+li = [-2,-3,4,5,6,8,9,0,0,1,2,3,5,-5,-6]
+positive = 0
+negative = 0
+zero = 0
+for i in li:
+    if(i>0):
+        positive = positive + 1
+        
+    elif(i<0):
+        negative = negative + 1
+        
+    else:
+        zero = zero + 1
+print ("Number of positive elements",positive)
+print ("Number of negative elements",negative)
+print ("number of zeros",zero)
+
+OUTPUT - 
+
+Number of positive elements 9
+Number of negative elements 4
+number of zeros 2
+
+Task 3 -
+CODE - 
+li = ["mom", "dad", "king", "python", "malayalam", "123321", "123"]
+palindrome = []
+non_palindrome = []
+for i in li:
+  if i[::1] == i[::-1]:
+    palindrome.append(i)
+  else:
+    non_palindrome.append(i)
+else:
+    print(len(palindrome))
+    print(palindrome)
+    print(len(non_palindrome))
+    print(non_palindrome)
+OUTPUT -
+
+4
+['mom', 'dad', 'malayalam', '123321']
+3
+['king', 'python', '123']
+
+Task 4 -
