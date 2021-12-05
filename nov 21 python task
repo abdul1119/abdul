@@ -53,3 +53,37 @@ OUTPUT -
 enter a string:hieou
 e
 the middle letter is a vowel
+
+task 5 -
+CODE - 
+string =input("enter the string:")
+lens = int(len(a)/2)
+ascii_value = ord(a[b])
+print(ascii_value)
+if ascii_value % 2:
+    print("even")
+else:
+    print("odd")
+    
+OUTPUT - 
+enter the string:python
+105
+even
+
+task 6 - 
+CODE -
+string = input("enter a string:")
+length = len(string)
+print(length)
+if length % 2 == 0:
+    print("it is even")
+else:
+    print("it is odd")
+    
+OUTPUT - 
+enter a string:hello
+5
+it is odd
+
+task 7 -
+CODE - 
