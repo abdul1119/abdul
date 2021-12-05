@@ -87,3 +87,112 @@ it is odd
 
 task 7 -
 CODE - 
+mark = int(input(("enter your marks:")))
+if mark >= 0 and mark <= 100:
+    print("its a valid mark")
+else:
+    print("its not a valid mark")
+if mark >= 50:
+    print("you pass")
+else:
+    print("you fail")
+if (mark >= 90 and mark <= 100):
+    if mark / 2:
+        print("A+")
+    else:
+        print("A-")
+elif mark >= 80 and mark <= 89:
+    if mark /2 == 0:
+            print("B+")
+    else:
+            print("B-")
+elif mark >= 70 and mark <= 79:
+    if mark / 2 == 0:
+            print("C+")
+    else:
+            print("C-")
+elif mark >= 60 and mark <= 69:
+    if mark / 2 == 0:
+            print("D+")
+    else:
+            print("D-")
+elif mark >= 50 and mark <= 59:
+    if mark / 2 == 0:
+            print("E+")
+    else:
+            print("E-")
+elif mark >= 0 and mark <= 49:
+            print("FAIL")
+            
+OUTPUT - 
+    enter your marks:99
+its a valid mark
+you pass
+A+
+
+task 10 - 
+CODE - 
+string1 = input("enter first string:")
+string2 = input("enter second string:")
+vowel1 = string1.count('a') + string1.count('e') + string1.count('i') + string1.count('o') + string1.count('u')
+vowel2 = string2.count('a') + string2.count('e') + string2.count('i') + string2.count('o') + string2.count('u')
+if vowel1 == vowel2:
+    print("equal count")
+else:
+    print("not equal")
+    
+OUTPUT -    
+enter first string:car
+enter second string:bike
+not equal
+
+task 11 -
+CODE - 
+number = input("enter a number:")
+number1 = int(number[0])
+number2 = int(number[1])
+number3 = int(number[2])
+a = int(number)
+value = (number1 ** 3) + (number2 ** 3) + (number3 ** 3)
+if (a == value):
+    print("it is an armstrong number")
+else:
+    print("it is not an armstrong number")
+
+OUTPUT - 
+enter a number:666
+it is not an armstrong number
+    
+task 12 - 
+CODE
+li = [123, 124, 125,130,131]
+lens = len(li)
+print(lens)
+if (lens % 2) == 0:
+    print("length of list is even")
+else:
+    print("length of list is odd")
+    
+OUTPUT - 
+5
+length of list is odd
+
+RANGE FUNCTION TASKS - 
+
+CODE -
+print(tuple(range(0,76,5)))
+
+print(tuple(range(0,72,8)))
+
+print(tuple(range(75,0,5)))
+
+print(tuple(range(96,72,8)))
+
+OUTPUT - 
+(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75)
+
+(0, 8, 16, 24, 32, 40, 48, 56, 64)
+
+()
+
+()
