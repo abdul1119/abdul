@@ -16,41 +16,45 @@ OUTPUT -
 task 2 - 
 CODE - 
 
-print(a["python"][4])#extract 3
-print(a["python"][0])#Extract 1994
-print(a["java"][3][9:])#extract backend
-print(a["c"][1])#extract core
+        print(a["python"][4])#extract 3
+        print(a["python"][0])#Extract 1994
+        print(a["java"][3][9:])#extract backend
+        print(a["c"][1])#extract core
 
 OUTPUT - 
-3
-1994
-backend
-core
+        3
+        1994
+        backend
+        core
 
 task 3 -
 CODE - 
-string = int(input("enter a number:"))
-if string >= 0:
-    print("it is a positive number")
-else:
-    print("it is a negative number")
+
+#collect one number from user, check whether the number is positive or negative
+        string = int(input("enter a number:"))
+        if string >= 0:
+        print("it is a positive number")
+        else:
+        print("it is a negative number")
+        
+#collect one number from user, check whether the number is even or odd
+        string1 = int(input("enter a number:"))
+        if string1 % 2:
+        print("it is a negative number")
+        else:
+        print("it is a positive number")
     
-string1 = int(input("enter a number:"))
-if string1 % 2:
-    print("it is a negative number")
-else:
-    print("it is a positive number")
-    
-string2 = input("enter a number:")
-if (string2[0:100]) == (string2[::-1]):
-    print("the string is a palindrome")
-else:
-    print("the string is not a palindrome")
+#collect one string from user, check whether the string is palindrome or not
+        string2 = input("enter a number:")
+        if (string2[0:100]) == (string2[::-1]):
+        print("the string is a palindrome")
+        else:
+        print("the string is not a palindrome")
     
 OUTPUT -
-enter a number:-3
-it is a negative number
-enter a number:8
-it is a positive number
-enter a number:66
-the string is a palindrome
+        enter a number:-3
+        it is a negative number
+        enter a number:8
+        it is a positive number
+        enter a number:66
+        the string is a palindrome
