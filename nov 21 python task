@@ -1,13 +1,55 @@
 task 1-
+
 CODE-
     number = int(input("enter a number"))
     if number >= 0:
     print ("this is a positive number")
     else:
     print("this is a negative number")
-   OUTPUT-
+    
+OUTPUT-
     enter a number:-9
     this is a negative number
     
     enter a number:9
     this is a positive number
+
+task 2 -
+CODE - 
+string1 = int(input("enter a number:"))
+if string1 % 2:
+    print("it is an odd number")
+else:
+    print("it is an even number")
+    
+OUTPUT - 
+enter a number:5
+it is a negative number
+
+task 3 - 
+CODE -
+string = input("enter a number:")
+if (string[0:100]) == (string[::-1]):
+    print("the string is a palindrome")
+else:
+    print("the string is not a palindrome")
+    
+OUTPUT - 
+enter a number:66
+the string is a palindrome
+
+task 4 - 
+CODE - 
+
+string = input("enter a string:")
+lens = int(len(string)/2)
+print(string[lens])
+if (string[lens] == 'a' or string[lens] == 'e' or string[lens] == 'i' or string[lens] == 'o' or string[lens] == 'u'):
+    print("the middle letter is a vowel")
+else:
+    print("the middle letter is not a vowel")
+    
+OUTPUT - 
+enter a string:hieou
+e
+the middle letter is a vowel
